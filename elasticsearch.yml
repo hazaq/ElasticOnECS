@@ -1,11 +1,7 @@
 cluster.name: "docker-cluster"
 network.host: 0.0.0.0
 
-opendistro_security.allow_unsafe_democertificates: true
-opendistro_security.allow_default_init_securityindex: true
-opendistro_security.authcz.admin_dn:
-  - CN=kirk,OU=client,O=client,L=test, C=de
-
+opendistro_security.ssl.http.enabled: false
 opendistro_security.audit.type: internal_elasticsearch
 opendistro_security.enable_snapshot_restore_privilege: true
 opendistro_security.check_snapshot_restore_write_privileges: true
