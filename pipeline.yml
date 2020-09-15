@@ -1,0 +1,3 @@
+- pipeline.id: bb-alb
+  path.config: "/etc/logstash/conf.d/bb-alb-s3-logs.conf"
+
